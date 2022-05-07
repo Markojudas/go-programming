@@ -1,4 +1,4 @@
-# go-programming
+# GO Programming Language!
 Mastering The Go Programming Language
 
 <h3> I am following the following UDEMY course to help me with this</h3>
