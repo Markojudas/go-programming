@@ -22,6 +22,13 @@ const (
 	k            //4
 )
 
+const (
+	l = iota      //0
+	m             //1
+	n             //2
+	o = 1 << iota // iota == 3; o == 8 - move 0001 (1) shift to the left 'iota' bits, in this case iota iota
+)
+
 func main() {
 	fmt.Println(a)
 	fmt.Println(b)
@@ -34,5 +41,10 @@ func main() {
 	fmt.Println(i)
 	fmt.Println(j)
 	fmt.Println(k)
+	fmt.Println(l)
+	fmt.Println(m)
+	fmt.Println(n)
+	fmt.Println(o)
+	fmt.Printf("bit shift 1 three bits to the left: %d\n", 1<<3)
 
 }
