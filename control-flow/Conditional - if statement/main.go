@@ -49,4 +49,14 @@ func main() {
 		fmt.Println("001")
 	}
 
+	//if-else
+	x := 42
+	if x == 40 {
+		fmt.Println("Our value was 40")
+	} else if x == 42 {
+		fmt.Println("Our value was 42")
+	} else {
+		fmt.Println("our value was not 40")
+	}
+
 }
