@@ -78,5 +78,13 @@ func main() {
 	fmt.Println(s)
 	fmt.Println(len(s))
 	fmt.Println(cap(s))
+	fmt.Println()
+
+	//RANGE
+	xi := []int{4, 5, 7, 8, 9, 42}
+
+	for idx, val := range xi {
+		fmt.Println(idx, val)
+	}
 
 }
