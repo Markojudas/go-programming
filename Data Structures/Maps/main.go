@@ -55,5 +55,16 @@ func main() {
 		delete(m, "Miss Moneypenny")
 	}
 
+	if _, ok := m["Jose"]; !ok {
+		fmt.Println("Jose is not found")
+	}
+
+	fmt.Println(m)
+
+	if _, ok := m["Todd"]; ok {
+		fmt.Println("Deleting Todd")
+		delete(m, "Todd")
+	}
+
 	fmt.Println(m)
 }
