@@ -39,6 +39,7 @@ func main() {
 	fmt.Println(hashedPW)
 
 	loginPW := `password1234`
+	//loginPW2 := `notthepassword` -> this will not match and return an error
 
 	err = bcrypt.CompareHashAndPassword(hashedPW, []byte(loginPW))
 
