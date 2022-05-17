@@ -1,8 +1,8 @@
 package main
 
 /*
-
- */
+	Marshall the []User to JSON
+*/
 
 import (
 	"encoding/json"
