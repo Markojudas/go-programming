@@ -1,4 +1,4 @@
-module github.com/markojudas/go-programming
+module github.com/Markojudas/go-programming
 
 go 1.18
 
