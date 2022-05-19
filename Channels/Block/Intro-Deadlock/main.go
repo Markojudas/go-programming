@@ -14,7 +14,7 @@ import "fmt"
 func main() {
 	c := make(chan int) //channels were we can put in ints
 
-	c <- 42 //putting 42 to the channel
+	c <- 42 //putting 42 to the channel (send)
 
-	fmt.Println(<-c)
+	fmt.Println(<-c) //(receive)
 }
