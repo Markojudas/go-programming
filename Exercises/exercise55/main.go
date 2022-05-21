@@ -12,7 +12,7 @@ import "fmt"
 
 func main() {
 
-	cg := make(chan int, 1)
+	cg := make(chan int)
 
 	/* A)
 	cs := (chan<- int)(cg) //send only channel!

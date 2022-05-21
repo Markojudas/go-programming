@@ -25,11 +25,13 @@ func main() {
 	/* c := make(chan int)
 
 	go func() {
-		c <- 42
+		c <- 42 //different goroutine
 	}()
 
-	fmt.Println(<-c) */
+	fmt.Println(<-c) //this blocks until it has something to pull off the channel
+	*/
 
+	//Using a buffer channel
 	c := make(chan int, 1)
 
 	c <- 42

@@ -33,8 +33,8 @@ func gen() <-chan int {
 
 func receive(c <-chan int) {
 
-	for v := range c {
-		fmt.Println(v)
+	for val := range c {
+		fmt.Println(val)
 	}
 
 }
