@@ -1,6 +1,6 @@
 module github.com/markojudas/go-programming
 
-retract v0.0.0
+retract v0
 
 go 1.18
 
