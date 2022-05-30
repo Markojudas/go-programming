@@ -1,10 +1,21 @@
 package main
 
-import "github.com/markojudas/go-programming/Exercises/exercise66/dog"
+import (
+	"fmt"
+
+	"github.com/markojudas/go-programming/Exercises/exercise66/dog"
+)
+
+type canine struct {
+	name string
+	age  int
+}
 
 func main() {
 
-	humanYears := 5
-
-	dog.Years(humanYears)
+	rufus := canine{
+		name: "Rufus",
+		age:  dog.Years(2),
+	}
+	fmt.Println(rufus)
 }
